@@ -1,4 +1,4 @@
-EXECUTABLES = git go find pwd rm
+EXECUTABLES = git go find pwd rm dep
 K := $(foreach exec,$(EXECUTABLES),\
         $(if $(shell which $(exec)),some string,$(error "No $(exec) in PATH)))
 
