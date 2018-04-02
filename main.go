@@ -9,5 +9,5 @@ func Add(a, b int) int{
 
 
 func main () {
-  fmt.Println("Hello Hardproof")
+  fmt.Println("Hello Hardproof - " + string(Add(5,5)))
 }
